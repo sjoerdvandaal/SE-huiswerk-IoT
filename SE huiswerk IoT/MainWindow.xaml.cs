@@ -20,5 +20,17 @@ namespace SE_huiswerk_IoT
         {
             InitializeComponent();
         }
+        private void AddPersonClicked(object sender, RoutedEventArgs e)
+        {
+            //TODO Add a person to the list persons
+        }
+        private void AddAnimalClicked(object sender, RoutedEventArgs e)
+        {
+            //TODO Add an animal to the person currently selected (week 2)
+        }
+        private void PersonSelected(object sender, SelectionChangedEventArgs e)
+        {
+            //TODO Respond on person click event
+        }
     }
 }
